@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+
+  - name: s3
+    database: MUR_DATA2BOT
+    schema: S3DATA
+    tables:
+      - name: ORDERS
+      - name: REVIEWS
+      - name: SHIPMENT_DELIVERIES
