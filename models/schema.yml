@@ -9,3 +9,12 @@ sources:
       - name: ORDERS
       - name: REVIEWS
       - name: SHIPMENT_DELIVERIES
+
+  - name: rds
+    database: MUR_DATA2BOT
+    schema: S3DATA
+    tables:
+      - name: DIM_DATES
+      - name: DIM_PRODUCTS
+      - name: DIM_CUSTOMERS
+      - name: DIM_ADDRESSES
