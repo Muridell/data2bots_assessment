@@ -8,12 +8,6 @@ schema
 
 All ingestion_date are the current date the table was generated
 */
-{{
-	config(
-		schema = 'murtodun9658_analytics',
-    	materialized = 'table',
-	)
-}}
 
 WITH ORDER_CALENAR AS (
 SELECT DATE(SYSDATE()) INGESTION_DATE,
