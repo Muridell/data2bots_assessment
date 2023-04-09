@@ -39,7 +39,10 @@ After successfully loading the data into the tables on Snowflake, I then created
 I then extracted the required insights from the data. This included agg_public_holiday, late_shipments, undelivered_shipments, agg_shipments and best_performing_product as stated in the Assessment Guide provided by the Data2bots team.
 I also created product_reviews and order_shipments models which I subsequently used in creating a visualisation dashboard to present my findings from the data.
 
-I have uploaded the image of the dashboard data-2-bots-chambua-inc-dashboard.jpg in the assessment repo.
+After transforming and modelling the data, I loaded the transformed tables agg_public_holiday, agg_shipments and best_performing_product into the analytics_export folder on the data lake on AWS S3. The files follow the format analytics_export/murtodun9658/file_name.csv
+
+I then created a visualisation dashboard on Preset Cloud, a cloud-based BI tool.
+I have uploaded the image of the dashboard, *data-2-bots-chambua-inc-dashboard.jpg* in the assessment repo.
 You can view and interact with the dashboard via the link:
 https://34a66c17.us1a.app.preset.io/superset/dashboard/p/r4kxBDXBe2P/
 
